@@ -1,0 +1,48 @@
+message:
+# Weather or not you want to use a prefix for the messages.
+  enable_prefix: true
+  prefix: "&e&l[&fVoucher&e&l]"
+  
+# When you don't have permission to a command
+  no_command_permission: "&cYou don't have permission to perform this command."
+  
+# When you stop editing
+  cancel_edit: "&7You stopped editing %name%&7."
+  
+# When you create a new voucher
+  voucher_create: "&7You created a voucher with id &f%id%&7."
+# When you are about to create a voucher
+  voucher_start_create: "&7Enter a &funique ID &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+
+# When you are about to edit the message
+  voucher_start_edit_id: "&7Enter the &fid &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_name: "&7Enter the &fname &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the item
+  voucher_start_edit_item: "&7Enter the &fitem &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_message: "&7Enter a &fmessage &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_sound: "&7Enter a &fsound &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_command: "&7Enter a &fcommand &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_permission: "&7Enter a &fpermission &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_lore: "&7Enter a &flore &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_title: "&7Enter a &ftitle &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+# When you are about to edit the message
+  voucher_start_edit_subtitle: "&7Enter a &fsubtitle &7for this voucher.\nType &fcancel &7to cancel creating a new voucher."
+  
+  voucher_give: "&7You gave &f%player%&7 %name%&7 (x%var%)"
+  
+# When you remove an existing voucher
+  voucher_remove: "&7You removed voucher with id &f%id%&7."
+# When a voucher with ID does not exist
+  voucher_not_found: "&7Could not find voucher with id &f%id%&7."
+# When a voucher with ID already exist
+  voucher_already_exists: "&7Voucher with id &f%id%&7 already exists."
+  
+# Player not found
+  player_not_found: "&7Player &f%player%&7 not found."

@@ -1,0 +1,9 @@
+name: Voucher
+version: 1.2
+author: Creatos
+api-version: 1.14
+main: me.creatos.voucher.VoucherPlugin
+depend: [LuckPerms, SmartInvs, TitleAPI, NBTAPI]
+commands:
+  voucher:
+    description: The main command of the plugin.
